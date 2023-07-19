@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Xuan Dai">
+		<meta name="description" content="Xuan Dai">
+		<meta name="keywords" content="Xuan Dai">
+		<script src="js/register.js"></script>
+		<title>Study Code With Html</title>
+</head>
+<body>
+	<h2>Register your account</h2>
+	<form id="Register_Form" method="post" action="confirm.html">
+		
+	<fieldset>
+		<legend>Register now</legend>
+		
+		    <p>
+				<label for="username">Username:</label>
+				<input type="text" name="username" id="username" pattern="[a-zA-z0-9]*">
+		    </p>
+
+		    <p>
+		    	
+				<label for="password">Password:</label>
+				<input type="text" name="password" id="password" pattern="[a-zA-z0-9]*">
+		    </p>
+		            
+	   
+    </fieldset>
+
+     <br>
+
+    <fieldset>
+    	<legend>Study Radio</legend>
+    	<label for="css">CSS</label>
+    	<input type="radio" name="radio_name" id="css" value="css"><br>
+    	<label for="html">HTML</label>
+    	<input type="radio" name="radio_name" id="html" value="html"><br>
+    	<label for="js">JAVASCRIPT</label>
+    	<input type="radio" name="radio_name" id="js" value="js"><br>
+    	<label for="py">PYTHON</label>
+    	<input type="radio" name="radio_name" id="py" value="py"><br>
+    </fieldset>
+    <br>
+
+    <fieldset>
+    	<legend>Study Check Box</legend>
+    	<label for="css">CSS</label>
+    	<input type="checkbox" name="css" id="css_1" value="selected"><br>
+    	<label for="html">HTML</label>
+    	<input type="checkbox" name="html" id="html_1" value="selected"><br>
+    	<label for="js">JAVASCRIPT</label>
+    	<input type="checkbox" name="js" id="js_1" value="selected"><br>
+    	<label for="py">PYTHON</label>
+    	<input type="checkbox" name="py" id="py_1" value="selected"><br>
+    </fieldset>
+    <br>
+    <label for="payment">Study Dropdown</label>
+    <select name="payment" id="payment">
+    	<option value="none">Please Select</option>
+    	<option value="paypal">Paypal</option>
+    	<option value="credit">Credit Card</option>
+    </select>
+      <br>
+      <br>
+      <input type="submit" value="Register">	
+      <input type="reset" value="Reset">
+    </form>
+          
+
+
+</body>
+</html>
